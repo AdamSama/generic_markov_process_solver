@@ -1,6 +1,6 @@
 # A generic Markov process solver
 ## It solves both a Markov Decision Process and a Markov Reward Process
-The input file consists of 4 types of input lines:
+The input file consists of 3 types of input lines:
 </br>
 Rewards/costs lines of the form 'name = value' where value is an integer</br>
 Edges of the form 'name : [e1, e2, e2]' where each e# is the name of an out edge from name</br>
