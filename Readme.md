@@ -4,14 +4,14 @@ The input file consists of 4 types of input lines:
 </br>
 Rewards/costs lines of the form 'name = value' where value is an integer
 Edges of the form 'name : [e1, e2, e2]' where each e# is the name of an out edge from name
-Probabilities of the form 'name % p1 p2 p3'
-    A = 7
-    B % .9
-    C : [ B, A]
-    C=-1
-    A : [B, A]
-    A % .2 .8
-    B : [A, C]
+Probabilities of the form 'name % p1 p2 p3'</br>
+    A = 7</br>
+    B % .9</br>
+    C : [ B, A]</br>
+    C=-1</br>
+    A : [B, A]</br>
+    A % .2 .8</br>
+    B : [A, C]</br>
 </br>
 The algorithm I use is value iteration + policy iteration as shown below:
 ```javascript
